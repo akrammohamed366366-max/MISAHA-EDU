@@ -1,0 +1,1 @@
+function r(t){if(!t)return 0;let e;if(typeof t=="number")e=new Date(t);else if(typeof t=="string")isNaN(Number(t))?e=new Date(t):e=new Date(Number(t));else return 0;if(isNaN(e.getTime()))return 0;const i=new Date,n=e.getTime()-i.getTime();return Math.ceil(n/(1e3*60*60*24))}function u(t){return!t||t.length===0?0:Math.min(...t.map(e=>e.tuitionUSD||0))}export{r as a,u as g};
