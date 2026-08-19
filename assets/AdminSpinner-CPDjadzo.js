@@ -1,0 +1,1 @@
+import{j as e}from"./vendor-D0vgXbu1.js";const s=()=>e.jsx("div",{className:"flex flex-col items-center justify-center py-24 w-full h-full min-h-[300px]",children:e.jsx("div",{className:"w-10 h-10 border-4 border-slate-100 rounded-full animate-spin",style:{borderTopColor:"var(--brand-gradient-start, #0EA5A0)"}})});export{s as A};
